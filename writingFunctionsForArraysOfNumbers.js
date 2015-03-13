@@ -1,23 +1,27 @@
-function findNumber() {
-  var jNum = [8, 6, 7, 5, 3, 0, 9];
-  biggestNumberInArray(jNum);
-  arrayAverage(jNum);
-}
-function biggestNumberInArray(jNum) {
+
+var jennyNum = [8, 6, 7, 5, 3, 0, 9];
+console.log(biggestNumberInArray(jennyNum));
+console.log(arrayAverage(jennyNum)); 
+
+function biggestNumberInArray(jennyNum) {
   var bigNum = 0; 
-  for (var i = 0; i < jNum.length; i++) {
-    if (jNum[i] > bigNum) {
-      bigNum = jNum[i];     
+  for (var i = 0; i < jennyNum.length; i++) {
+    if (jennyNum[i] > bigNum) {
+      bigNum = jennyNum[i];     
     }
   }
-  console.log(bigNum);
+  return bigNum;
 }
-function arrayAverage(jNum) {
+function arrayAverage(jennyNum) {
   var sum = 0; 
-  for (var i = 0; i < jNum.length; i++) {
-    sum = jNum[i] + sum;
+  for (var i = 0; i < jennyNum.length; i++) {
+    sum = jennyNum[i] + sum;
   }
-  sum = (sum/(jNum.length)).toFixed(2);
-  console.log(sum);
+  sum = (sum/(jennyNum.length)).toFixed(2);
+  return sum;
 }
-findNumber();
+
+
+
+
+
