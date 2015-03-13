@@ -1,6 +1,8 @@
 # Getting Started
 Setting up GitHub and checking your knowledge of Javascript
 
+yo yo yo 
+
 1. Set up a GitHub account if you don't already have one
 2. Download and install the GitHub Windows client
 3. Fork this repository so you have your own copy on the GitHub server
